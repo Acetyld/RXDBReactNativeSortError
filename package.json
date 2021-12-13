@@ -1,0 +1,39 @@
+{
+  "name": "RXDBExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "events": "^3.3.0",
+    "pouchdb-adapter-http": "^7.2.2",
+    "pouchdb-adapter-react-native-sqlite": "^3.0.1",
+    "random-token": "^0.0.8",
+    "react": "17.0.2",
+    "react-native": "0.66.4",
+    "react-native-get-random-values": "^1.7.1",
+    "react-native-sqlite-2": "^3.5.0",
+    "rxdb": "^10.5.4",
+    "rxdb-hooks": "^4.0.0",
+    "rxjs": "^7.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
